@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-app = Flask(__name__,static_folder="forest-fire-app/build",static_url_path="/")
+app = Flask(__name__,static_folder="front end/build",static_url_path="/")
 CORS(app) 
 
 # Load the model and scaler
